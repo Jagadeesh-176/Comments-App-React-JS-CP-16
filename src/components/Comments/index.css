@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.app-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comments-con {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.comments-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.para {
+font-weight: initial;
+font-size: 18px;
+}
+.name-input {
+    height: 5vh;
+    width: 20vw;
+    margin: 6px;
+}
+.comment-input {
+    width: 20vw;
+    margin: 6px;
+}
+.button {
+    margin: 6px;
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    background-color: #0284c7;
+    border-radius: 4px;
+    border-color: none;
+    cursor: pointer;
+}
+.img {
+    height: 30vh;
+    width: 12vw;
+    margin-left: 32px;
+    margin-top: 18px;
+}
+.line {
+    border: 2px solid #dee0e3;
+}
+.comment-count-heading {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: 500;
+}
+.comments-count {
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #0284c7;
+    height: 26px;
+    width: 32px;
+    color: white;
+    border-radius: 8px;
+}
+.comments-list {
+    list-style-type: none;
+}
